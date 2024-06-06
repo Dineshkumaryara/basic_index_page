@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleverBooks - Inventory Management</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header id="site-header">
+    <nav>
+      <div class="logo">CleverBooks</div>
+      <ul class="nav-center">
+        <li><a href="#issues">Key Issues</a></li>
+        <li><a href="#metrics-section">Key Metrics</a></li>
+        <li><a href="#reviews">Customer Reviews</a></li>
+        <li><a href="#features">Our Features</a></li>
+        <li><a href="#cta">Grow Faster</a></li>
+      </ul>
+      <ul class="nav-right">
+        <li><a href="#login" class="login">Login</a></li>
+        <li><a href="#contact" class="talk-to-us">Talk to Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Every order fulfilled, <span>on time.</span></h1>
+          <p>Eliminate overstocking and under-stocking with CleverBooks. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups.</p>
+          <div class="cta-container">
+            <a href="#get-started" class="custom-btn btn-6">Get started with CB</a>
+            <img src="images/start.png" alt="Start Image" class="start-image">
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/image.png" alt="Hero Image">
+        </div>
+      </div>
+      <div class="custom-shape-divider-top-1700550481">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    </section>
+    <!-- problems Section -->
+    <section class="problems" id="issues">
+      <h2>Four key questions answered by CleverBooks</h2>
+      <div class="problems-content">
+        <div class="card">
+          <img src="images/card-checklist.svg" alt="What to order icon">
+          <h3>What to order</h3>
+          <p>Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle.</p>
+        </div>
+        <div class="card">
+          <img src="images/bag-heart-fill.svg" alt="When to order icon">
+          <h3>When to order</h3>
+          <p>Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.</p>
+        </div>
+        <div class="card">
+          <img src="images/hdd-stack-fill.svg" alt="How much to stock icon">
+          <h3>How much to stock</h3>
+          <p>Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.</p>
+        </div>
+        <div class="card">
+          <img src="images/shop.svg" alt="Where to place icon">
+          <h3>Where to place</h3>
+          <p>Our tool suggests how to move stock within your supply chain. So you'll always have products available across cities.</p>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- Key Metrics Section -->
+    <div class="spacer"></div>
+  <section class="metrics" id="metrics-section">
+    <div class="metrics-container">
+      <div class="metrics-tabs">
+        <div class="metrics-tab">
+          <img src="images/cart-dash-fill.svg" alt="Stockouts" class="metrics-icon">
+          <button class="tab-button active" data-target="stockouts">STOCKOUTS</button>
+        </div>
+        <div class="metrics-tab">
+          <img src="images/cash-coin.svg" alt="Cash Recovery Cycle" class="metrics-icon">
+          <button class="tab-button" data-target="cash-recovery">CASH RECOVERY CYCLE</button>
+        </div>
+        <div class="metrics-tab">
+          <img src="images/currency-dollar.svg" alt="Revenue" class="metrics-icon">
+          <button class="tab-button" data-target="revenue">REVENUE</button>
+        </div>
+      </div>
+      <div class="metrics-content">
+        <div id="stockouts" class="metrics-data active">
+          <h2>85%</h2>
+          <p>Reduction in out-of-stock</p>
+        </div>
+        <div id="cash-recovery" class="metrics-data">
+          <h2>20%</h2>
+          <p>Improvement in cash recovery cycle</p>
+        </div>
+        <div id="revenue" class="metrics-data">
+          <h2>30%</h2>
+          <p>Increase in revenue</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="spacer"></div>
+
+    <!-- Continuous Scrolling Icons Section -->
+<section class="scrolling-icons">
+  <div class="icons-container">
+    <img src="images/ajanta.svg" alt="Icon 1">
+    <img src="images/athlos.svg" alt="Icon 2">
+    <img src="images/BLUE TRIBE.svg" alt="Icon 3">
+    <img src="images/drip project.svg" alt="Icon 4">
+    <img src="images/MANOHAR.svg" alt="Icon 5">
+    <img src="images/PLIX.svg" alt="Icon 6">
+    <img src="images/tahiliya.svg" alt="Icon 7">
+    <img src="images/TAILOR AND CIRCUS.svg" alt="Icon 8">
+    <img src="images/wow.svg" alt="Icon 9">
+    <img src="images/zavya.svg" alt="Icon 10">
+    <!-- Add more icons as needed -->
+    <img src="images/ajanta.svg" alt="Icon 1">
+    <img src="images/athlos.svg" alt="Icon 2">
+    <img src="images/BLUE TRIBE.svg" alt="Icon 3">
+    <img src="images/drip project.svg" alt="Icon 4">
+    <img src="images/MANOHAR.svg" alt="Icon 5">
+    <img src="images/PLIX.svg" alt="Icon 6">
+    <img src="images/tahiliya.svg" alt="Icon 7">
+    <img src="images/TAILOR AND CIRCUS.svg" alt="Icon 8">
+    <img src="images/wow.svg" alt="Icon 9">
+    <img src="images/zavya.svg" alt="Icon 10">
+  </div>
+</section>
+
+<!-- Reviews Section -->
+<div class="review-container" id="reviews">
+  <div class="review-section active">
+      <div class="review-content">
+        <p>As Co-founders, we had zero clue on the real time stock levels in our warehouse. It felt like a battle to manually update invoices from EE to Zoho, so that at least some data points can be tracked. While we had already implemented <a href="#">Clever Books</a> I had no clue that they could make this API integration work for us and exactly the way we wanted it to work. Thank you team <a href="#">Rahul Vishwakarma</a> & <a href="#">Yogesh Byahatti</a> for identifying the problem and being so quick with the solution, kudos to the amazing team you have.</p>
+        <div class="reviewer-info">
+              <img src="images/kirti-goel.jpg" alt="Kirti Goel">
+              <div class="reviewer-details">
+                  <h3>Kirti Goel</h3>
+                  <p>Co-founder, Manohor</p>
+              </div>
+              <div class="review-logo">
+                  <img src="images/MANOHAR.svg" alt="logo">
+              </div>
+          </div>
+          <div class="review-tags">
+              <h1>Automated Invoice Reconciliation</h1>
+              <h1>Channel wise Sales Classification</h1>
+          </div>
+      </div>
+      <div class="review-image">
+          <img src="images/spices.jpg" alt="P-TAL Products">
+      </div>
+  </div>
+
+  <div class="review-section">
+      <div class="review-content">
+        <p>D2C brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. <a href="#">Clever Books</a> automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Clever Books unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.</p>
+        <div class="reviewer-info">
+              <img src="images/p2.jpg" alt="Kirti Goel">
+              <div class="reviewer-details">
+                  <h3>Diksha Pande</h3>
+                  <p>Co-founder, Zavya</p>
+              </div>
+              <div class="review-logo">
+                  <img src="images/zavya.svg" alt="logo">
+              </div>
+          </div>
+          <div class="review-tags">
+              <h1>Upto 95% Demand Fulfilment</h1>
+              <h1> Less than 3% Daily Stock-out</h1>
+          </div>
+      </div>
+      <div class="review-image">
+          <img src="images/samosa.jpg" alt="P-TAL Products">
+      </div>
+  </div>
+  <div class="review-navigation">
+    <button class="gradient-button" id="prev-button">&lt;</button>
+    <button class="gradient-button" id="next-button">&gt;</button>
+  </div>
+</div>
+
+    <!-- features Section -->
+    <!-- features Section -->
+<section class="features" id="features">
+  <h1>Things your sheets wishes it could do</h1>
+  <div class="feature-container">
+    <div class="feature-h">
+      <h2 data-target="feature1"><span>Accurate Demand Forecasting</span></h2>
+      <div id="feature1" class="feature-content">
+        <p>Dynamically predict future demand across all channels, with high accuracy and lowest granularity. Clever Books takes into account what traditional forecasts don't: trends, real-time market signals, promotional activities, and even logistics disruptions.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature2">HELIX: Workflow Automation</h2>
+      <div id="feature2" class="feature-content">
+        <p>Build and automate custom S&OP workflows to enhance productivity and streamline your processes. Clever Books helps you get a bird's eye view of your supply chain, and help you do things a spreadsheet never can.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature3">Automated Purchase Planning</h2>
+      <div id="feature3" class="feature-content">
+        <p>Never miss an order, and know exactly how much to order, when, and from whom. This is made possible with constant inventory tracking and automated PO generation. What's more, Clever Books improves with every planning cycle as the data set gets richer.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature4">Automated Distribution Planning</h2>
+      <div id="feature4" class="feature-content">
+        <p>Faster replenishment cycles mean more working capital for you. Granular warehouse and store-level insights help you optimally allocate materials and inventory. Say goodbye to stock-outs and excess inventory.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature5">Easy Integration</h2>
+      <div id="feature5" class="feature-content">
+        <p>From all online store solutions to cloud ERPs, Clever Books integrates seamlessly with your current tech and ops stack. What's more? Connecting them to Clever Books will give you actionable insights.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature6">Custom Dashboards</h2>
+      <div id="feature6" class="feature-content">
+        <p>Create customised dashboards to identify important trends, patterns, and insights. Tailor them to match the unique requirements of your team, empowering them to extract data in a user-friendly format that can be easily comprehended.</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+      <h2 data-target="feature7">Consensus Planning</h2>
+      <div id="feature7" class="feature-content">
+        <p>Get inputs from all major stakeholders for the forecast numbers with a multi-level approval process. Compare & visualise the impact of the numbers on major KPIs in real time and take informed decisions with Scenario Planning</p>
+        <a href="#"><span>Learn more →</span></a>
+      </div>
+      <hr>
+    </div>
+    <div class="feature-image">
+      <img id="featureImage1" src="images/features.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage2" src="images/features2.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage3" src="images/features3.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage4" src="images/features4.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage5" src="images/features5.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage6" src="images/features6.jpg" alt="Dashboard" class="dashboard-image">
+      <img id="featureImage7" src="images/features7.jpg" alt="Dashboard" class="dashboard-image">
+    </div>
+  </div>
+  <div class="view-all-features-container">
+    <a href="#" class="view-all-features-button">View all features</a>
+  </div>
+</section>
+
+
+    <!-- CTA Section -->
+    <section class="cta-s" id="cta">
+    <div class="cta-section">
+      <h1>You can grow faster than you think!</h1>
+      <p>Plan with Clever Books to fulfill your demand today, and dreams tomorrow. We bring the methods and technologies of large global companies to help brands of all sizes scale.</p>
+      <button class="cta-button">Get started with Clever Books</button>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-column1">
+          <div class="flogo">CleverBooks</div>
+            <p>
+              Clever Books is an AI-powered supply chain software that provides companies tools for demand forecasting, inventory planning and more. This helps them have the right amount of stock, optimize space and fulfill every order.
+            </p>
+            
+        </div>
+        <div class="footer-column">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#issues">Key Issues</a></li>
+              <li><a href="#metrics-section">Key Metrics</a></li>
+              <li><a href="#reviews">Customer Reviews</a></li>
+              <li><a href="#features">Our Features</a></li>
+              <li><a href="#cta">Grow Faster</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Learn</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Clever Books</h3>
+            <a>sales@getcleverbooks.ai</a>
+            <p>Registered Office:<br>1507, Incubex, 11th cross road, 19th Main Road, Bengaluru, India. 560102</p>
+            <p>Corporate Office:<br>291, All Time Space, 4th Floor, 15th A Cross, Sector - 6, HSR Layout, Bengaluru, India. 560102</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fc">
+      <p>Copyright 2024 Clever Books &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#">Terms of Service</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#">Privacy Policy</a></p>
+      <div class="bu">
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">↑</button>
+      </div>
+    </div>
+</footer>
+<div class="h-divider">
+<svg class="editorial"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 28 "
+     preserveAspectRatio="none">
+ <defs>
+ <path id="gentle-wave"
+ d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z" />
+  </defs>
+  <g class="parallax1">
+   <use xlink:href="#gentle-wave" x="50" y="3" fill="#fff"/>
+  </g>
+    <g class="parallax2">
+   <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+    </g>
+      <g class="parallax3">
+   <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
+   </g>
+    <g class="parallax4">
+   <use xlink:href="#gentle-wave" x="50" y="6" fill="#66fcf1"/>  
+  </g>
+</svg>
+
+  <div class="shadow"></div>
+</div>
+
+
+  
+
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
